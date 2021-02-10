@@ -2,5 +2,6 @@
 "name": "Sagan Stake Pool",
 "description": "Take ADA to the Stars with Sagan",
 "ticker": "SAGAN",
-"homepage": "https://www.saganpool.com/"
+"homepage": "https://www.saganpool.com/",
+"extended": "https://raw.githubusercontent.com/ebrhineland/SaganPool/main/extendedMetaData.json"
 }
