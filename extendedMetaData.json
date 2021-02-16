@@ -9,7 +9,7 @@
         "about": {
             "me": "Sagan Stake Pool",
             "server": "Single-pool Stake Pool Operator aiming for Decentralization"
-        },
+        }
     },
     "my-pool-ids": {
         "0": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f"
