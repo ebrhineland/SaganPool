@@ -4,14 +4,14 @@
         "url_png_logo": "https://ibb.co/ZMcGmr0",
         "location": "Pennsylvania, USA",
         "social": {
-            "telegram_handle": "saganpool",
+            "telegram_handle": "saganpool"
         },
         "about": {
             "me": "Sagan Stake Pool",
-            "server": "Single-pool Stake Pool Operator aiming for Decentralization",
+            "server": "Single-pool Stake Pool Operator aiming for Decentralization"
         },
     },
     "my-pool-ids": {
-        "0": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f",
+        "0": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f"
     }
 }
