@@ -4,11 +4,13 @@
         "url_png_logo": "https://git.io/Jt1SK",
         "location": "Pennsylvania, USA",
         "social": {
+			"twitter_handle": "SaganPool",
+			"reddit_handle": "Sagan_Pool",
             "telegram_handle": "saganpool"
         },
         "about": {
-            "me": "Sagan Stake Pool",
-            "server": "Single-pool Stake Pool Operator aiming for Decentralization"
+            "me": "Sagan Pool is a Cardano Stake Pool dedicated to decentralization & the community. Check us out at http://saganpool.com",
+            "server": "Single-pool Stake Pool Operator aiming for Decentralization and Community Growth"
         }
     },
     "my-pool-ids": {
