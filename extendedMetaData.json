@@ -16,4 +16,23 @@
     "my-pool-ids": {
         "0": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f"
     }
+  "adapools_ext": {
+   "prometheus": {
+    "0": {
+        "name": "Hubble Relay",
+        "type": "relay",
+        "key": "23b793b6185e05bddcf5a4b1752f8912"
+    },
+    "1": {
+        "name": "Kepler Relay",
+        "type": "relay",
+        "key": "e23f778352804246b201e4d323f3aee4"
+    },
+    "2": {
+        "name": "Sagan Block Producing Node",
+        "type": "bp",
+        "key": "e770e22208c1b91b3626c193b061954b"
+    }
+  }
+} 
 }
