@@ -27,11 +27,6 @@
         "name": "Kepler Relay",
         "type": "relay",
         "key": "e23f778352804246b201e4d323f3aee4"
-    },
-    "2": {
-        "name": "Sagan Block Producing Node",
-        "type": "bp",
-        "key": "e770e22208c1b91b3626c193b061954b"
     }
   }
 } 
