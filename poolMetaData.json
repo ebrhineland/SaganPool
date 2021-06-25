@@ -1,7 +1,7 @@
 {
 "name": "Sagan Stake Pool",
-"description": "Take ADA to the Stars with Sagan",
+"description": "Cardano is Star Stuff",
 "ticker": "SAGAN",
-"homepage": "https://www.saganpool.com/",
+"homepage": "www.saganpool.com",
 "extended": "https://raw.githubusercontent.com/ebrhineland/SaganPool/main/extendedMetaData.json"
 }
