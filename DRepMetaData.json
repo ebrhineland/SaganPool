@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158206e8e43a277c730655f49713c45ccc314d6ea5374d11c985fd63362c81d908df1"
+        },
+        "signature": {
+          "@value": "845846a201276761646472657373583901fffec00d6ed41fc5c92e3ce54309f4fd49edaba40909e52f8863882f0d2f4c0eede3367be6fc6a38a9fbca06973340ae030cc8f54ac13d80a166686173686564f45844566572696679204452657020647265703133747570636d35786733346b7a3768713763793766363770326e737a6c366c30656d32666a64346470356b6b6776796736757758409ad0ad36173a609dd141020a534f70997b6befa4adef6b6bb8c0d3edd06d85bd1e1e90f05374de3ed5ff822d7ab394b737a05132b3341a047987c0db2071ec07"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "https://saganpool.com"
+    },
+    "email": {
+      "@value": "john@delegatedconsensus.com"
+    },
+    "givenName": {
+      "@value": "SAGAN Stake Pool"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/Qmdk43kdziX2ECNeg2Qsn5LWnhgisN3zHADxh2frssWULg",
+      "sha256": "023fb195e02ad362635dadfd7c505f424c80bd7fcbcd9d5ca5e10307d2648a85"
+    },
+    "motivations": {
+      "@value": "Science communication, Astronomy, Astrophysics, Space Exploration... mountain biking.\n\nIncreasing Cardano Mainnet decentralization and MAV.  It is never \"high enough\"."
+    },
+    "objectives": {
+      "@value": "Promoting Science Education and Communication."
+    },
+    "paymentAddress": {
+      "@value": "addr1q8llasqddm2pl3wf9c7w2scf7n75nmdt5sysnef03p3cstcd9axqam0rxea7dlr28z5lhjsxjue5ptsrpny02jkp8kqqhxkhed"
+    },
+    "qualifications": {
+      "@value": "3 years of Stake Pool Operation, Sancho stake pool Operation and DRep, and Mithril signer."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "@SaganPool"
+        },
+        "uri": {
+          "@value": "https://x.com/SaganPool"
+        }
+      }
+    ]
+  }
+}
