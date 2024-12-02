@@ -21,7 +21,7 @@ chmod +x PyTaterMiniCompany.py
 # Run the Company Miner:
 python3 PyTaterMiniCompany.py
 
-# Install as systems service:
+# Install as systemd service:
 cd $HOME/PyTater
 sudo cat > $HOME/PyTater/pytaterminicompany.service << EOF
 [Unit]
