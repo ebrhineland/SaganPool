@@ -7,24 +7,13 @@
     "body": {
       "@id": "CIP119:body",
       "@context": {
-        "bio": "CIP119:bio",
-        "email": "CIP119:email",
-        "givenName": "CIP119:givenName",
-        "motivations": "CIP119:motivations",
-        "objectives": "CIP119:objectives",
-        "paymentAddress": "CIP119:paymentAddress",
-        "qualifications": "CIP119:qualifications",
-        "image": {
-          "@id": "CIP119:image",
-          "@context": {
-            "ImageObject": "https://schema.org/ImageObject"
-          }
-        },
         "references": {
           "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -36,7 +25,14 @@
               }
             }
           }
-        }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
       }
     },
     "authors": {
@@ -55,38 +51,14 @@
       }
     }
   },
-  "authors": [
-    {
-      "witness": {
-        "publicKey": {
-          "@value": "a40101032720062158206e8e43a277c730655f49713c45ccc314d6ea5374d11c985fd63362c81d908df1"
-        },
-        "signature": {
-          "@value": "845846a201276761646472657373583901fffec00d6ed41fc5c92e3ce54309f4fd49edaba40909e52f8863882f0d2f4c0eede3367be6fc6a38a9fbca06973340ae030cc8f54ac13d80a166686173686564f45844566572696679204452657020647265703133747570636d35786733346b7a3768713763793766363770326e737a6c366c30656d32666a64346470356b6b6776796736757758409ad0ad36173a609dd141020a534f70997b6befa4adef6b6bb8c0d3edd06d85bd1e1e90f05374de3ed5ff822d7ab394b737a05132b3341a047987c0db2071ec07"
-        },
-        "witnessAlgorithm": {
-          "@value": "Ed25519"
-        }
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": {
     "@value": "blake2b-256"
   },
   "body": {
-    "bio": {
-      "@value": "https://saganpool.com"
-    },
-    "email": {
-      "@value": "john@delegatedconsensus.com"
-    },
+    "doNotList": false,
     "givenName": {
       "@value": "SAGAN Stake Pool"
-    },
-    "image": {
-      "@type": "ImageObject",
-      "contentUrl": "https://ipfs.io/ipfs/Qmdk43kdziX2ECNeg2Qsn5LWnhgisN3zHADxh2frssWULg",
-      "sha256": "023fb195e02ad362635dadfd7c505f424c80bd7fcbcd9d5ca5e10307d2648a85"
     },
     "motivations": {
       "@value": "Science communication, Astronomy, Astrophysics, Space Exploration... mountain biking.\n\nIncreasing Cardano Mainnet decentralization and MAV.  It is never \"high enough\"."
@@ -98,16 +70,25 @@
       "@value": "addr1q8llasqddm2pl3wf9c7w2scf7n75nmdt5sysnef03p3cstcd9axqam0rxea7dlr28z5lhjsxjue5ptsrpny02jkp8kqqhxkhed"
     },
     "qualifications": {
-      "@value": "3 years of Stake Pool Operation, Sancho stake pool Operation and DRep, and Mithril signer."
+      "@value": "3 years of Stake Pool Operation, Sancho stake pool Operation & DRep, and Mithril signer."
     },
     "references": [
       {
-        "@type": "Other",
+        "@type": "Link",
         "label": {
-          "@value": "@SaganPool"
+          "@value": "X"
         },
         "uri": {
           "@value": "https://x.com/SaganPool"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Website"
+        },
+        "uri": {
+          "@value": "https://saganpool.com"
         }
       }
     ]
