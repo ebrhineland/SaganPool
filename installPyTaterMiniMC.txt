@@ -8,7 +8,7 @@ cd $HOME
 mkdir PyTater
 cd PyTater
 
-# Update the command below with your Mining Company Color ID:
+# Update the command below with your Mining Company Color ID: Replace everything including the <brackets>.
 echo <your Miner Color ID> > MiningCompanyColor.txt
 wget https://raw.githubusercontent.com/StarchIndustries/PyTaterMini/refs/heads/main/PyTaterMiniCompany.py
 
