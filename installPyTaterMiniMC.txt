@@ -44,3 +44,6 @@ sudo mv pytaterminicompany.service /etc/systemd/system/pytaterminicompany.servic
 sudo systemctl daemon-reload
 sudo systemctl enable pytaterminicompany.service
 sudo systemctl start pytaterminicompany.service
+
+#check status with:
+sudo systemctl status pytaterminicompany.service
