@@ -28,7 +28,14 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -52,44 +59,28 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": {
-    "@value": "blake2b-256"
-  },
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
-    "givenName": {
-      "@value": "SAGAN Stake Pool"
+    "givenName": "SAGAN Stake Pool",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/ebrhineland/SaganPool/refs/heads/main/Sagan_icon.jpg",
+      "sha256": "65b04133840b1a3d55da202d435c005035dc7f9cb75c8ca3cc6464412be348f9"
     },
-    "motivations": {
-      "@value": "Science communication, Astronomy, Astrophysics, Space Exploration... mountain biking.\n\nIncreasing Cardano Mainnet decentralization and MAV.  It is never \"high enough\"."
-    },
-    "objectives": {
-      "@value": "Promoting Science Education and Communication."
-    },
-    "paymentAddress": {
-      "@value": "addr1q8llasqddm2pl3wf9c7w2scf7n75nmdt5sysnef03p3cstcd9axqam0rxea7dlr28z5lhjsxjue5ptsrpny02jkp8kqqhxkhed"
-    },
-    "qualifications": {
-      "@value": "3 years of Stake Pool Operation, Sancho stake pool Operation & DRep, and Mithril signer."
-    },
+    "motivations": "Science communication, Astronomy, Astrophysics, Space Exploration... mountain biking.\n\nIncreasing Cardano Mainnet decentralization and MAV.  It is never \"high enough\".",
+    "objectives": "Promoting Science Education and Communication.",
+    "paymentAddress": "addr1q8llasqddm2pl3wf9c7w2scf7n75nmdt5sysnef03p3cstcd9axqam0rxea7dlr28z5lhjsxjue5ptsrpny02jkp8kqqhxkhed",
+    "qualifications": "4 years of Stake Pool Operation, Mithril signer.  Supporting small pools, increasing MAV, and eliminating minimum cost per epoch.",
     "references": [
       {
         "@type": "Link",
-        "label": {
-          "@value": "X"
-        },
-        "uri": {
-          "@value": "https://x.com/SaganPool"
-        }
+        "label": "X",
+        "uri": "https://x.com/SaganPool"
       },
       {
         "@type": "Identity",
-        "label": {
-          "@value": "Website"
-        },
-        "uri": {
-          "@value": "https://saganpool.com"
-        }
+        "label": "Website",
+        "uri": "https://saganpool.com/"
       }
     ]
   }
