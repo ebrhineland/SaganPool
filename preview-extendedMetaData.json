@@ -1,0 +1,19 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://bit.ly/33xON0Q",
+        "url_png_logo": "https://bit.ly/3oafTos",
+        "location": "Pennsylvania, USA",
+        "social": {
+            "twitter_handle": "SaganPool",
+            "reddit_handle": "Sagan_Pool",
+            "telegram_handle": "saganpool"
+        },
+        "about": {
+            "me": "Sagan Pool is a Cardano Stake Pool dedicated to decentralization & the community. Check us out at http://saganpool.com",
+            "server": "Single-pool Stake Pool Operator aiming for Decentralization and Community Growth"
+        }
+    },
+    "my-pool-ids": {
+        "0": "3c4e0c56e632dc7392c685903dc5b2b2c470aaeffb3e674b888afbfc"
+    }
+}
